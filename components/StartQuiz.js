@@ -5,7 +5,7 @@ import blueBlob from './../images/blob-blue.png';
 export default function StartQuiz(props) {
   return (
     <main className="start-screen background">
-      <img src={yellowBlob} />
+      <img src={yellowBlob} alt="Yellow decoration" />
       <section className="intro-container">
         <h1>Quizzical</h1>
         <p>Answer questions to test your knowledge!</p>
@@ -13,7 +13,7 @@ export default function StartQuiz(props) {
           Start Quiz
         </button>
       </section>
-      <img src={blueBlob} />
+      <img src={blueBlob} alt="Round blue decoration" />
     </main>
   );
 }

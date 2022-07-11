@@ -91,7 +91,7 @@ export default function Quiz() {
       return;
     }
 
-    correctAnswers.map((answer, i) => {
+    correctAnswers.forEach((answer, i) => {
       if (answer === String(selectedAnswers[i])) {
         setScore(prevScore => prevScore + 1);
       }
@@ -120,7 +120,7 @@ export default function Quiz() {
 
   return (
     <main className="start-screen background">
-      <img src={yellowBlob} />
+      <img src={yellowBlob} alt="Yellow Triangle" />
       <section className="quiz-container">{questionList}</section>
       <div className="score-check-container">
         {submit && (
@@ -133,7 +133,7 @@ export default function Quiz() {
           {!submit ? 'Check Answers' : 'Play Again'}
         </button>
       </div>
-      <img src={blueBlob} />
+      <img src={blueBlob} alt="Blue round decoration" />
     </main>
   );
 }
