@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #1c1c1c;
+}
+
+.background {
+  width: 700px;
+  height: 700px;
+  background-color: #f5f7fb;
+  position: relative;
+  margin-top: 50px;
+}
+
+.start-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.intro-container {
+  text-align: center;
+}
+
+.intro-container > h1 {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 37px;
+  color: #293264;
+}
+
+.intro-container > p {
+  margin-top: 25px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.start-screen img:first-child {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.start-screen img:last-child {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.question {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #293264;
+}
+
+.question-container {
+  width: 600px;
+  border-bottom: 0.794239px solid #dbdef0;
+  padding: 16px 0;
+}
+
+.btn {
+  font-family: 'Inter';
+  font-style: normal;
+  text-align: center;
+  color: #f5f7fb;
+  width: 120px;
+  height: 35px;
+  border: none;
+  background: #4d5b9e;
+  cursor: pointer;
+}
+
+.check-answers {
+  font-weight: 600;
+  font-size: 10.24px;
+  line-height: 12px;
+  width: 120px;
+  height: 35px;
+  border-radius: 10px;
+}
+
+.start-quiz {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  border-radius: 15px;
+  border: none;
+  width: 193px;
+  height: 52px;
+  margin-top: 29px;
+}
+
+.choice {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10.24px;
+  line-height: 12px;
+  text-align: center;
+  color: #293264;
+  border: 0.794239px solid #4d5b9e;
+  border-radius: 7.94239px;
+  padding: 5px;
+  margin: 10px 10px 0 0;
+  cursor: pointer;
+}
+
+.choice-selected {
+  background-color: #d6dbf5;
+  border: 0.794239px solid #d6dbf5;
+}
+
+.score-check-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.score {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12.8px;
+  line-height: 15px;
+  text-align: center;
+  color: #293264;
+  padding-right: 20px;
+}
